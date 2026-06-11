@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WhereKnow</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="current_location">Current Location</string>
+    <string name="see_current_location">See current Location</string>
+    <string name="location_history">Location History</string>
+    <string name="saved_locations_screen">Saved Locations Screen</string>
+    <string name="list_fragment_placeholder">List Fragment Placeholder</string>
+    <string name="name_your_location">Name your location</string>
+    <string name="e_g_favorite_cafe">e.g. Favorite Cafe</string>
+    <string name="save">Save</string>
+    <string name="view_on_map">View on Map</string>
+</resources>

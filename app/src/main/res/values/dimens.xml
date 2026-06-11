@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xxl">32dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_med">16dp</dimen> <!-- Or use your existing value -->
+
+    <!-- Text Sizes -->
+    <dimen name="text_display">32sp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_subtitle">18sp</dimen>
+    <dimen name="text_body">22sp</dimen>
+    <dimen name="text_caption">14sp</dimen>
+
+    <!-- UI Elements -->
+    <dimen name="corner_radius_large">24dp</dimen>
+    <dimen name="corner_radius_medium">16dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+
+
+        <!-- Spacing System (8dp grid) -->
+
+    <!-- Card Metrics -->
+    <dimen name="card_radius_large">12dp</dimen>
+    <dimen name="card_radius_medium">8dp</dimen>
+    <dimen name="elevation_low">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+
+    <!-- Text Sizes -->
+    <!-- Icon Sizes -->
+
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+
+
+
+</resources>

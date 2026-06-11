@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:padding="@dimen/spacing_xl"
+    tools:context=".MainActivity">
+
+    <!-- App Header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/spacing_xxl">
+
+        <ImageView
+            android:layout_width="@dimen/icon_size_large"
+            android:layout_height="@dimen/icon_size_large"
+            android:src="@drawable/ic_logo_app"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_display"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:fontFamily="@font/roboto_bold"/>
+
+    </LinearLayout>
+
+    <!-- Feature Buttons Container -->
+    <LinearLayout
+        android:id="@+id/features_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/spacing_xxl">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_location"
+            style="@style/FeatureButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/see_current_location"
+            android:textSize="@dimen/text_body"
+            android:background="@drawable/btn_custom_background"
+        android:drawableStart="@drawable/ic_nearby"
+        android:drawablePadding="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_large"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSavedLocations"
+            style="@style/FeatureButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/location_history"
+            android:textSize="@dimen/text_body"
+            android:background="@drawable/btn_custom_background"
+            android:drawableStart="@drawable/ic_past_location"
+            android:drawablePadding="@dimen/spacing_small"
+            android:layout_marginBottom="@dimen/spacing_large"/>
+
+
+
+
+        <!-- Nearby Button -->
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
